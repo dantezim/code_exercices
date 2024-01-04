@@ -214,3 +214,48 @@ console.log("Sua média é:", media);
 
 // Exercício 11
 
+/* Faça um algoritmo que leia quatro notas obtidas por um aluno, calcule a média das nota obtidas, imprima na tela o nome do aluno e 
+ se o aluno foi aprovado ou reprovado. Para o aluno ser considerado aprovado sua média final deve ser maior ou igual a 7. */
+
+ /* let nota1, nota2, nota3, nota4, media;
+ let aluno;
+
+aluno = prompt("Digite seu nome:");
+
+ do 
+ {
+ nota1 = prompt("Digite a nota da P1: ");
+ nota1 = parseFloat(nota1);
+ } while (nota1 < 0 || nota1 > 10);
+
+ do
+ {
+ nota2 = prompt("Digite a nota da P2: ");
+ nota2 = parseFloat(nota2);
+ } while (nota2 < 0 || nota2 > 10);
+
+ do
+ {
+ nota3 = prompt("Digite a nota da P3: ");
+ nota3 = parseFloat(nota3);
+ } while (nota3 < 0 || nota3 > 10);
+
+ do
+ {
+ nota4 = prompt("Digite a nota da P4: ");
+ nota4 = parseFloat(nota4);
+ } while (nota4 < 0 || nota4 > 10);
+
+ media = (nota1 + nota2 + nota3 + nota4) / 4
+
+ if (media >= 7 && media <= 10)
+ {
+    console.log("Parabéns" + aluno + "!" + "Você passou!");
+    console.log("Media final: " + media);
+ }
+
+ if (media < 7 && media > 0)
+ {
+    console.log("Poxa" + aluno + "):");
+    console.log("Deveria ter estudado um pouco mais");
+ } */
