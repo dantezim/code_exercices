@@ -184,6 +184,33 @@ else if (IMC > 40)
 
 // Exercício 10 
 /* 
- Faça um algoritmo que leia três notas obtidas por um aluno, e imprima na tela a média das notas.
+Faça um algoritmo que leia três notas obtidas por um aluno, e imprima na tela a média das notas.
 
+
+ let nota1, nota2, nota3, media;
+
+ do
+ {
+ nota1 = prompt("Digite a nota da P1:");
+ nota1 = parseFloat(nota1);
+ } while (nota1 < 0 || nota1 > 10);
+
+ do
+ {
+ nota2 = prompt("Digite a nota da P2:");
+ nota2 = parseFloat(nota2);
+ } while (nota2 < 0 || nota2 > 10);
+
+ do
+ {
+nota3 = prompt("Digite a nota da P3:");
+nota3 = parseFloat(nota3);
+ } while (nota3 < 0 || nota3 > 10);
+
+media = (nota1 + nota2 + nota3) / 3;
+
+console.log("Sua média é:", media);
  */
+
+// Exercício 11
+
