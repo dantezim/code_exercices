@@ -259,3 +259,97 @@ aluno = prompt("Digite seu nome:");
     console.log("Poxa" + aluno + "):");
     console.log("Deveria ter estudado um pouco mais");
  } */
+
+// Exercício 12
+
+/* 
+Faça um algoritmo que leia o valor de um produto e determine o valor que deve ser pago, conforme a escolha da forma de pagamento
+ pelo comprador e imprima na tela o valor final do produto a ser pago. Utilize os códigos da tabela de condições de pagamento para efetuar o cálculo adequado.
+ Tabela de Código de Condições de Pagamento
+
+ 1 - À Vista em Dinheiro ou Pix, recebe 15% de desconto
+
+ 2 - À Vista no cartão de crédito, recebe 10% de desconto
+
+ 3 - Parcelado no cartão em duas vezes, preço normal do produto sem juros
+
+ 4 - Parcelado no cartão em três vezes ou mais, preço normal do produto mais juros de 10%
+*/
+
+/* let valorProduto, metodoPagamento, valorTotal;
+
+do
+{
+valorProduto = prompt("Digite o valor do produto: ");
+valorProduto = parseFloat(valorProduto);
+} while (valorProduto < 0);
+
+console.log("Métodos de pagamento:");
+console.log("Opção 1: Pix");
+console.log("Opção 2: Cartão de crédito"); 
+console.log("Opção 3: 2x parcelas");
+console.log("Opção 4: 3x parcelas ou mais");
+
+do
+{
+metodoPagamento = prompt("Digite o número da opção desejada:")
+metodoPagamento = parseFloat(metodoPagamento);
+} while(metodoPagamento < 0 || metodoPagamento > 4);
+
+if (metodoPagamento == 1)
+{
+    total = (15/100) * valorProduto;
+    console.log("Total do produto com 15% de desconto aplicado:" + " " + total);
+}
+else
+if (metodoPagamento == 2)
+{
+    total = (10/100) * valorProduto;
+    console.log("Total do produto com 10% de desconto aplicado:" + " " + total);
+}
+else
+if (metodoPagamento == 3)
+{
+    total = valorProduto / 2;
+    console.log("Total das parcelas:" + " " + total);
+}
+else
+if (metodoPagamento == 4)
+{
+    total = (valorProduto / 3) * 0.10;
+    console.log("Total das parcelas com juros:" + " " + total);
+} */
+
+// Exercício 13
+/* 
+    Faça algoritmo que leia o nome e a idade de uma pessoa e imprima na tela o nome da pessoa e se ela é maior ou menor de idade. 
+*/
+
+/* let nome, idade;
+
+nome = prompt("Digite seu nome:");
+
+do
+{
+idade = prompt("Digite sua idade:");
+idade = parseInt(idade);
+} while (idade < 0);
+
+if (idade > 18)
+{
+    console.log(nome + ", você é maior de idade!");
+}
+else
+{
+    console.log(nome + ", você é um pimpolinho.");
+} */
+
+// Exercício 15
+
+/* 
+Faça um algoritmo que leia o ano em que uma pessoa nasceu, imprima na tela quantos anos, meses e dias essa pessoa ja viveu. 
+Leve em consideração o ano com 365 dias e o mês com 30 dias.
+
+(Ex: 5 anos, 2 meses e 15 dias de vida)
+*/
+
