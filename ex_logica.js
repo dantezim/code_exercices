@@ -403,3 +403,20 @@ console.log("A temperatura em Celsius é:" + " " + converte); */
 Faça um algoritmo que imprima na tela a tabuada de 1 até 10.
  */
 
+/* function calculoTabuada(tabuada)
+{
+    return tabuada * contador;
+}
+
+let tabuada;
+let contador = 0;
+
+tabuada = prompt("Digite o número da tabuada que você quer saber:");
+tabuada = parseInt(tabuada);
+
+for(contador; contador < 11; contador++)
+{
+    const resultado = calculoTabuada(tabuada);
+    console.log(resultado);
+}
+ */
