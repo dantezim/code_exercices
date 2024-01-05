@@ -1,5 +1,7 @@
 // Exercícios tirados do site: https://www.dio.me/articles/lista-de-exercicios-para-treinar-logica-de-programacao
 
+const prompt = require('prompt-sync')();
+
 // Exercício 01
 // Faça um algoritmo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B é mostre se a soma é menor que C.
 // Obter valores de A, B e C do usuário
@@ -352,4 +354,52 @@ Leve em consideração o ano com 365 dias e o mês com 30 dias.
 
 (Ex: 5 anos, 2 meses e 15 dias de vida)
 */
+
+/* function calculaIdadeDiasMeses(idade)
+{
+    const diasPorAno = 365.25;
+    const diasTotais = idade * diasPorAno;
+
+    const dias = Math.floor(idade / 30);
+    const meses = Math.floor(idade % 30);
+
+    return {meses, dias};
+}
+
+let idade;
+idade = prompt("Digite sua idade:");
+idade = parseInt(idade);
+
+{
+   const resultado = calculaIdadeDiasMeses(idade);
+   console.log("Você viveu aproximadamente" + " " + resultado.meses + " " + "meses" + " " + "e" + " " + resultado.dias + " " + "dias!");
+}
+ */
+
+// Exercício 16
+/*
+Faça um algoritmo que leia uma temperatura em Fahrenheit e calcule a temperatura correspondente em grau Celsius. Imprima na tela as duas temperaturas.
+
+Fórmula: C = (5 * ( F-32) / 9) 
+ */
+
+/* function FparaCelsius(Fahrenheit)
+{
+    let C = (5 * (Fahrenheit-32) / 9);
+    return C;      
+}
+
+let Fahrenheit;
+
+Fahrenheit = prompt("Digite a temperatura em fahrenheit:");
+Fahrenheit = parseFloat(Fahrenheit);
+
+const converte = FparaCelsius(Fahrenheit);
+console.log("A temperatura em Fahrenheite é:" + " " + Fahrenheit);
+console.log("A temperatura em Celsius é:" + " " + converte); */
+
+// Exercício 17
+/*
+Faça um algoritmo que imprima na tela a tabuada de 1 até 10.
+ */
 
