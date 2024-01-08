@@ -77,8 +77,18 @@ console.log(resultado);
 caso contrário devera multiplicar A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado a uma variável C e
 imprimir seu valor na tela. */
 
-/* 
-let a, b, total;
+/*
+function soma(a, b)
+{
+    return a + b
+}
+
+function multiplicacao(a, b)
+{
+    return a * b;
+}
+
+let a, b, resultadoSoma, resultadoMultiplicacao;
 
 a = prompt("Digite o valor de A:");
 a = parseFloat(a);
@@ -88,30 +98,48 @@ b = parseFloat(b);
 
 if (a == b)
 {
-    total = a + b;
-    console.log("Somatória:", total);
+    resultadoSoma = soma(a, b);
+    console.log("Somatória:", resultadoSoma);
 }
 else 
 {
-    total = a * b;
-    console.log("Multiplicação: ", total);
+    resultadoMultiplicacao = multiplicacao(a, b);
+    console.log("Multiplicação: ", resultadoMultiplicacao);
 } 
+
 */
 
 // Exercício 04
 // Faça um algoritmo que receba um número inteiro e imprima na tela o seu antecessor e o seu sucessor.
 
-/* let a;
+/*
+function sucessor(a)
+{
+    return a + 1;
+}
+
+function antecessor(a)
+{
+    return a - 1;
+}
+
+ let a;
 
 a = prompt("Digite um valor inteiro:");
 a = parseInt(a);
 
-console.log("Sucessor:", (a + 1));
-console.log("Antecessor:", (a - 1)); */
+const sucessorResult = sucessor(a);
+const antecessorResult = antecessor(a);
+
+console.log("Sucessor:" + sucessorResult);
+console.log("Antecessor:" + antecessorResult); 
+*/
 
 // Exercício 05
 // Faça um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário, calcule quantos salários mínimos esse 
 // usuário ganha e imprima na tela o resultado. (Base para o Salário mínimo R$ 1.293,20).
+
+
 
 // Exercício 06
 // Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.
