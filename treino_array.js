@@ -18,7 +18,7 @@ console.log("A soma dos elementos é:" + " " + soma);
 let numsArr = [10, 20, 30];
 let sumArr = 0;
 
-for(let nums of numsArr)
+for(let nums of numsArr) // Nesse loop for...of, foi declarada uma variável dentro do loop, que serve como índice que será incrementado a cada volta
 {
     console.log(nums);
 }
