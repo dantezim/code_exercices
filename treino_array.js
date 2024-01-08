@@ -16,7 +16,7 @@ console.log("A soma dos elementos é:" + " " + soma);
 // Loopando no array de uma forma mais simples (for...of é uma nova funcionalidade do JavaScript)
 /* 
 let numsArr = [10, 20, 30];
-let sumArr = 0;
+let sumArr = 0; 
 
 for(let nums of numsArr) // Nesse loop for...of, foi declarada uma variável dentro do loop, que serve como índice que será incrementado a cada volta
 {

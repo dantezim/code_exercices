@@ -6,8 +6,12 @@ const prompt = require('prompt-sync')();
 // Faça um algoritmo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B é mostre se a soma é menor que C.
 // Obter valores de A, B e C do usuário
 
-/* let a, b, c;
-let total;
+/* function somaAB(a, b)
+{
+    return a + b;
+}
+
+let a, b, c;
 
 a = prompt("Digite o valor de a:");
 a = parseFloat(a);
@@ -18,39 +22,54 @@ b = parseFloat(b);
 c = prompt("Digite o valor de c:");
 c = parseFloat(c);
 
-total = a + b;
+const resultado = somaAB(a, b);
 
-if (c > total)
+if (c > resultado)
 {
     console.log("O valor da soma é menor que C.");
-} */
+    console.log("Valor de C:" + " " + c);
+}
 
-// console.log("Total:" + total);
+if(c == resultado)
+{
+    console.log("O valor da soma é igual ao valor de C.");
+}
+
+console.log("Total:" + resultado);
+ */
 
 // Exercício 02
 // Faça um algoritmo para receber um número qualquer e imprimir na tela se o número é par ou ímpar, positivo ou negativo.
 
-/* let a;
+/* function parImpar(a)
+{
+    if(a % 2 == 0 )
+    {
+        return console.log("Par!");
+    }
+    else
+    {
+        return console.log("Impar!");
+    }
+}
+
+let a;
 
 a = prompt("Digite um valor qualquer:");
 a = parseFloat(a);
 
 if (a < 0)
 {
-    console.log("Negativo");
+    console.log("Negativo.");
 }
 
 if (a > 0)
 {
-    console.log("positivo");
+    console.log("Positivo.");
 }
 
-if (a % 2 === 0) {
-        console.log("Par");
-    } else {
-        console.log("Ímpar");
-    }
-
+const resultado = parImpar(a);
+console.log(resultado);
  */
 
 // Exercício 03
@@ -433,4 +452,4 @@ Fórmula: distância = tempo x velocidade.
     litros usados = distância / 12.
  */
 
-    
+
