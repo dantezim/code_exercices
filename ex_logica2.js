@@ -8,10 +8,22 @@ A seguir (utilizando apenas atribuições entre variáveis) troque os seus conte
 valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados
 nas variáveis.  */
 
+/* 
 let A = 10
 let B = 20
 
 A = B;
 B = 10;
-console.log(A, B);
+console.log(A, B); */
+
+// Exercício 05
+
+// Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor. 
+
+/* let val;
+
+val = prompt("Digite um valor qualquer:");
+val = parseFloat(val);
+
+console.log(val - 1); */
 
