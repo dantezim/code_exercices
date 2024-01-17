@@ -44,7 +44,7 @@ class Pilha {
   
   // Exemplo de uso da pilha
   let pilha = new Pilha();
-  let valor = new Pilha();
+  let valor;
 
 
   valor = prompt("Digite um valor para ser adicionado a pilha:");
