@@ -11,7 +11,7 @@ const prompt = require('prompt-sync')();
     return a + b;
 }
 
-let a, b, c;
+let a, b, c;    
 
 a = prompt("Digite o valor de a:");
 a = parseFloat(a);
@@ -325,7 +325,7 @@ Faça um algoritmo que leia o valor de um produto e determine o valor que deve s
  4 - Parcelado no cartão em três vezes ou mais, preço normal do produto mais juros de 10%
 */
 
-/* let valorProduto, metodoPagamento, valorTotal;
+let valorProduto, metodoPagamento, valorTotal;
 
 do
 {
@@ -367,7 +367,7 @@ if (metodoPagamento == 4)
 {
     total = (valorProduto / 3) * 0.10;
     console.log("Total das parcelas com juros:" + " " + total);
-} */
+}
 
 // Exercício 13
 /* 
@@ -450,7 +450,7 @@ console.log("A temperatura em Celsius é:" + " " + converte); */
 Faça um algoritmo que imprima na tela a tabuada de 1 até 10.
  */
 
-/* function calculoTabuada(tabuada)
+ function calculoTabuada(tabuada)
 {
     return tabuada * contador;
 }
@@ -466,7 +466,7 @@ for(contador; contador < 11; contador++)
     const resultado = calculoTabuada(tabuada);
     console.log(resultado);
 }
- */
+
 
 // Exercício 18
 
